@@ -19,18 +19,23 @@ Mini-Project is about data Analysis of socio-economic : Thailand on the global s
       It is calculated by dividing a country's Gross Domestic Product (GDP)—the total value of 
 # Table of contents
 
-**1. Question we want to know**
-- xxxxxxxx
-
-**2. Data preparation process**
+**Part 1**
+Question we want to know
+- ภาพรวมของอายุขัย, ค่าใช้จ่ายด้านสุขภาพ, ค่าใช้จ่ายด้านการศึกษาทั่วโลก และอัตราการว่างงานทั่วโลกมีค่าเฉลี่ยเป็นอย่างไรบ้าง
+- ภาพรวมของอายุขัย, ค่าใช้จ่ายด้านสุขภาพ, ค่าใช้จ่ายด้านการศึกษาทั่วโลก และอัตราการว่างงานของประเทศไทย เทียบกับประเทศต่างๆ ทั่วโลก เป็นอย่างไรบ้าง
+- กก
+  
+**Part 2**
+Data preparation process
 - Choosing data for analyze
 - Data importing
 - Data cleansing
 
-**3. Data analyze process**
-- Part 1 : Global scale
-- Part 2 : Thailand in Global scale
-- Part 3 : Summary & Conclusion
+**Part 3**
+Thailand in Global scale
+
+**Part 4**
+Summary & Conclusion
 
 # Import data and Read data information
 
