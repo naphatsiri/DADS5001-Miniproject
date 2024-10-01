@@ -20,10 +20,7 @@ Mini-Project is about data Analysis of socio-economic : Thailand on the global s
 # Table of contents
 
 **Part 1**
-Question we want to know
-- ภาพรวมของอายุขัย, ค่าใช้จ่ายด้านสุขภาพ, ค่าใช้จ่ายด้านการศึกษาทั่วโลก และอัตราการว่างงานทั่วโลกมีค่าเฉลี่ยเป็นอย่างไรบ้าง
-- ภาพรวมของอายุขัย, ค่าใช้จ่ายด้านสุขภาพ, ค่าใช้จ่ายด้านการศึกษาทั่วโลก และอัตราการว่างงานของประเทศไทย เทียบกับประเทศต่างๆ ทั่วโลก เป็นอย่างไรบ้าง
-- กก
+Question we want to know?
   
 **Part 2**
 Data preparation process
@@ -36,6 +33,16 @@ Thailand in Global scale
 
 **Part 4**
 Summary & Conclusion
+
+
+
+
+# Part 1 : Question we want to know?
+- ภาพรวมของอายุขัย, ค่าใช้จ่ายด้านสุขภาพ, ค่าใช้จ่ายด้านการศึกษา และอัตราการว่างงานทั่วโลกมีเป็นอย่างไรบ้าง
+- ภาพรวมของอายุขัย, ค่าใช้จ่ายด้านสุขภาพ, ค่าใช้จ่ายด้านการศึกษา และอัตราการว่างงานของประเทศไทย เทียบกับประเทศต่างๆ ทั่วโลก เป็นอย่างไรบ้าง
+- GDP ต่อหัวของแต่ละประเทศเมื่อเทียบกับอายุขัย, ค่าใช้จ่ายด้านสุขภาพ, ค่าใช้จ่ายด้านการศึกษา และอัตราการว่างงานของประเทศไทย เทียบกับประเทศต่างๆ ทั่วโลก เป็นอย่างไรบ้าง
+- 
+# Part 2 : Data preparation process
 
 # Import data and Read data information
 
@@ -60,26 +67,32 @@ Summary & Conclusion
 
 ![image](https://github.com/user-attachments/assets/4f708c32-6036-4b5f-8fef-6e24256224ba)
 
-# Part 1 : Global Scale
-**1)    Choropleth map**
+# Part 3 : Thailand in Global Scale
+**1) Choropleth map**
 *   Global Life expectancy
 *   Global Healthcare expenditure
 *   Global Education expenditure
 *   Global Unemployment rate
+
+**2) Box plot :** Box plot of life expectancy to represent life expectancy shape
+
+**3) Trendline :**  
+* Thailand vs Global Life expectancy over time
+* Thailand vs Health expenditure over time
+* Thailand vs Global Education expenditure over time
+* Thailand vs Global Global unemployment rate over time
 
 **2) Scatter plot : GDP per capita vs. 4 parameters**
-*   Global Life expectancy
-*   Global Healthcare expenditure
-*   Global Education expenditure
-*   Global Unemployment rate
+*   Global life expectancy / Thailand vs Global life expectancy
+*   Global healthcare expenditure / Thailand vs Healthcare expenditure
+*   Global education expenditure / Thailand vs Global education expenditure
+*   Global unemployment rate / Thailand vs Global unemployment rate
 
 **3) Bubble chart : The relationship between GDP per Capita, life expectancy rate and health expenditure rate**
-*   Represent the relationship between GDP per capita (x-axis) , life expectancy (y-axis) and health expenditure (bubble size)
-*   Represent the relationship between GDP per capita (x-axis) , health expenditure rate (y-axis) and education expenditure rate (bubble size)
+*   Represent the relationship between GDP per capita (x-axis) , life expectancy (y-axis) and health expenditure (bubble size) : Thailand vs Global scale
+*   Represent the relationship between GDP per capita (x-axis) , health expenditure rate (y-axis) and education expenditure rate (bubble size) : Thailand vs Global scale
 
-**4) Correlation matrix :** The relationship between GDP per Capita, life expectancy, health expenditure rate, education expenditure rate and unemployment rate.
-
-**5) Box plot :** Box plot of life expectancy to represent life expectancy shape
+**4) Correlation matrix :** The relationship between GDP per Capita, life expectancy, health expenditure rate, education expenditure rate and unemployment rate : Thailand vs Global scale
 
 ## Choropleth map
 
@@ -98,7 +111,7 @@ Summary & Conclusion
 ![image](https://github.com/user-attachments/assets/97c421b4-314b-47bb-ab1d-2eba3f53d4c4)
 
 ## Trendline
-### Thailand vs Global Life expectancy Over Time
+### Thailand vs Global Life expectancy over time
 
 * จากกราฟ จะเห็นได้ว่า ค่าอายุขัยของประเทศไทยตั้้งแต่ปี 2001 ถึงปี 2019 มีค่าที่อยู่ใน<u>แนวโน้มที่เพิ่มมากขึ้น</u> โดยมีอัตราการเพิ่มขึ้นอยู่ที่ 8.92 %
   
@@ -108,7 +121,7 @@ Summary & Conclusion
 
 ![image](https://github.com/user-attachments/assets/12710f28-e8f7-4048-99d8-ce1bb7a9f6aa)
 
-### Thailand vs Health expenditure Over Time
+### Thailand vs Health expenditure over time
 
 * จากกราฟ จะเห็นได้ว่า ค่าใช้จ่ายด้านสุขภาพประเทศไทยตั้้งแต่ปี 2001 ถึงปี 2019 มีค่าที่อยู่ใน<u>แนวโน้มที่เพิ่มมากขึ้น</u> โดยมีอัตราการเพิ่มขึ้นอยู่ที่ 25.08 %
 
@@ -151,7 +164,7 @@ Summary & Conclusion
 ### GDP per capita vs. Life Expectancy
 * กราฟนี้แสดงความสัมพันธ์ระหว่าง GDP ต่อหัวของแต่ละประเทศกับอายุขัยเฉลี่ยของประชากรโดยใช้เส้น trendline ordinary least squares แสดงแนวโน้มโดยรวมของข้อมูล
   
-* จากการวิเคราะห์ Treanline บ่งบอกว่า ยิ่ง GDP per Capita มากขึ้น อายุขัยของประชากรก็จะเพิ่มมากขึ้นด้วยเช่นกัน
+* จากการวิเคราะห์ Trendline บ่งบอกว่า ยิ่ง GDP per Capita มากขึ้น อายุขัยของประชากรก็จะเพิ่มมากขึ้นด้วยเช่นกัน
 
 ![image](https://github.com/user-attachments/assets/76a2e944-0de4-4da8-ac93-0f83d0063b93)
 
