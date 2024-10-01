@@ -64,22 +64,22 @@ Thailand in Global scale
 
 # Part 3 : Thailand in Global Scale
 **1) Choropleth map**
-*   Global Life expectancy
-*   Global Healthcare expenditure
-*   Global Education expenditure
-*   Global Unemployment rate
+*   Global life expectancy
+*   Global healthcare expenditure
+*   Global education expenditure
+*   Global unemployment rate
 
 **2) Box plot :** Box plot of life expectancy to represent life expectancy shape
 
 **3) Trendline :**  
-* Thailand vs Global Life expectancy over time
+* Thailand vs Global life expectancy over time
 * Thailand vs Health expenditure over time
-* Thailand vs Global Education expenditure over time
-* Thailand vs Global Global unemployment rate over time
+* Thailand vs Global education expenditure over time
+* Thailand vs Global unemployment rate over time
 
 **2) Scatter plot : GDP per capita vs. 4 parameters**
 *   Global life expectancy / Thailand vs Global life expectancy
-*   Global healthcare expenditure / Thailand vs Healthcare expenditure
+*   Global healthcare expenditure / Thailand vs healthcare expenditure
 *   Global education expenditure / Thailand vs Global education expenditure
 *   Global unemployment rate / Thailand vs Global unemployment rate
 
@@ -122,7 +122,7 @@ Thailand in Global scale
 
 * ค่าใช้จ่ายด้านสุขภาพของโลกตั้้งแต่ปี 2001 ถึงปี 2019 <u>มีแนวโน้มที่เพิ่มมากขึ้น</u>ด้วยเช่นกัน โดยมีอัตราการเพิ่มขึ้นอยู่ที่ 14.87 %
   
-* สามารถสรุปได้ว่าค่าใช้จ่ายด้านสุขภาพไทยและค่าใช้จ่ายด้านสุขภาพของโลก ตั้งแต่ปี 2001 ถึงปี 2019 <u>มีแนวโน้มที่เพิ่มมากขึ้น</u> โดยค่าใช้จ่ายด้านสุขภาพของประเทศไทยจะมีค่า<u>น้อยกว่า</u>ค่าเฉลี่ยค่าใช้จ่ายด้านสุขภาพของโลก
+* สามารถสรุปได้ว่าค่าใช้จ่ายด้านสุขภาพไทยและค่าใช้จ่ายด้านสุขภาพของโลก ตั้งแต่ปี 2001 ถึงปี 2019 <u>มีแนวโน้มที่เพิ่มมากขึ้น</u> โดยค่าใช้จ่ายด้านสุขภาพของประเทศไทยจะมีค่า<u>น้อยกว่า</u>ค่าเฉลี่ยของค่าใช้จ่ายด้านสุขภาพของโลก
 
 ![image](https://github.com/user-attachments/assets/80dbdcfe-738a-4aab-97ca-0ebbdbb46235)
 
