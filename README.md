@@ -59,7 +59,7 @@ Summary and Conclusion
 *  **GDP per Capita :** measure that represents the average economic output (or income) per person in a country.
       It is calculated by dividing a country's Gross Domestic Product (GDP)—the total value of goods and services produced within a country over a specific time period—by its population.
 
-## Data cleansing process : Fillna with Median
+## Data cleansing process : Fill NA with Median
 
 ![image](https://github.com/user-attachments/assets/07c64229-95ea-42af-bf4a-8430fef81f3b)
 <p align="center"> <b>ภาพที่ 1 แสดงตารางการ cleansing ข้อมูลด้วยการเติมค่ากลางของข้อมูล (Median) ลงในค่าที่ว่างในตาราง</b></p>
