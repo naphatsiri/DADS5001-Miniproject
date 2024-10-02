@@ -24,10 +24,11 @@ Question we want to know?
   
 **Part 2**
 Data preparation process
-- Choosing data for analyze
-- Data importing
-- Data cleansing
-
+- Import data and Read data information
+- Describe data informantion in each column
+- Data cleansing process : Fillna with Median
+- Prepare data for visualization : Merge GDP per Capita
+  
 **Part 3**
 Thailand in Global scale
 
