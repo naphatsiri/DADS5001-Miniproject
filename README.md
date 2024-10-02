@@ -6,7 +6,7 @@
 *   **Import data from csv.file :** socio-economic and gdp per capita.
 *   **Read data information :** we found that the DataFrame has 9 columns and 3,269 rows.
 
-# Describe data informantion in each column
+# Describe data information in each column
 
 *   **Country name :** 174 countries.
 *   **Country code :** 3 letter code.
@@ -15,7 +15,6 @@
 *   **Health Expenditure (% of GDP) :** Level of current health expenditure expressed as a percentage of GDP.
 *   **Education Expenditure (% of GDP) :** General government expenditure on education (current,capital, and transfers) is expressed as a percentage of GDP.
 *   **Unemployment (% total labor force) :** Unemployment refers to the % share of the labor force that is without work but available for and seeking employment.
-*  **GDP per Capita :** The measurement that represents the average economic output (or income) per person in a country.
   
 # Table of contents
 
