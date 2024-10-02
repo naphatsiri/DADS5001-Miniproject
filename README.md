@@ -86,7 +86,7 @@ Summary and Conclusion
 
 **2) Box plot :** Box plot of life expectancy to represent life expectancy shape.
 
-**3)Bar chart** : Comparison of life expectancy, healthcare expenditure rate, education expenditure rate and unemployment rate of Thailand vs Global
+**3) Bar chart** : Comparison of life expectancy, healthcare expenditure rate, education expenditure rate and unemployment rate of Thailand vs Global
 
 **4) Trendline :**  
 * Thailand vs Global life expectancy over time.
