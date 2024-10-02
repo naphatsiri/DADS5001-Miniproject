@@ -68,6 +68,8 @@ Summary and Conclusion
 <p align="center"> <b>ภาพที่ 2 แสดงรายละเอียดข้อมูลในรูปของ column และจำนวนแถวของข้อมูลที่ไม่พบค่าว่าง (non-null count)</b></p>
 
 ## Prepare data for visualization : Merge GDP per Capita 
+*  **GDP per Capita :** measure that represents the average economic output (or income) per person in a country.
+      It is calculated by dividing a country's Gross Domestic Product (GDP)—the total value of goods and services produced within a country over a specific time period—by its population.
 1) Merged two data table (socio-ecomomic data and gdp per capita.)
 2) Calculate the median of 'GDP per capita'.
 3) Fill NaN values in 'GDP per capita' with the median.
