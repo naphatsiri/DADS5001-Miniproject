@@ -1,12 +1,12 @@
-# DADS5001-Miniproject
-Mini-Project is about data analysis of socio-economic : Thailand on Global stage
+<h1 align=center> DADS5001-Miniproject</h1>
+<p align="center">Mini-Project is about data analysis of socio-economic : Thailand on Global stage</p>
 
 # Import data and Read data information
 
 *   **Import data from csv.file :** socio-economic and gdp per capita.
 *   **Read data information :** we found that the DataFrame has 9 columns and 3,269 rows.
 
-## Describe data informantion in each column
+# Describe data informantion in each column
 
 *   **Country name :** 174 countries.
 *   **Country code :** 3 letter code.
@@ -30,7 +30,7 @@ Data preparation process
 - Prepare data for visualization : Merge GDP per Capita
   
 **Part 3**
-Thailand in Global scale
+Thailand on Global stage
 
 **Part 4**
 Summary and Conclusion
@@ -43,7 +43,7 @@ Summary and Conclusion
   
 # Part 2 : Data preparation process
 
-# Import data and Read data information
+## Import data and Read data information
 
 *   **Import data from csv.file :** socio-economic and gdp per capita
 *   **Read data information :** we found that DataFrame has 9 columns and 3,269 rows
@@ -60,7 +60,7 @@ Summary and Conclusion
 *  **GDP per Capita :** measure that represents the average economic output (or income) per person in a country.
       It is calculated by dividing a country's Gross Domestic Product (GDP)—the total value of goods and services produced within a country over a specific time period—by its population.
 
-# Data cleansing process : Fillna with Median
+## Data cleansing process : Fillna with Median
 
 ![image](https://github.com/user-attachments/assets/07c64229-95ea-42af-bf4a-8430fef81f3b)
 <p align="center"> <b>ภาพที่ 1 แสดงตารางการ cleansing ข้อมูลด้วยการเติมค่ากลางของข้อมูล (Median) ลงในค่าที่ว่างในตาราง</b></p>
@@ -68,7 +68,7 @@ Summary and Conclusion
 ![image](https://github.com/user-attachments/assets/4f708c32-6036-4b5f-8fef-6e24256224ba)
 <p align="center"> <b>ภาพที่ 2 แสดงรายละเอียดข้อมูลในรูปของ column และจำนวนแถวของข้อมูลที่ไม่พบค่าว่าง (non-null count)</b></p>
 
-### Prepare data for visualization : Merge GDP per Capita 
+## Prepare data for visualization : Merge GDP per Capita 
 1) Merged two data table (socio-ecomomic data and gdp per capita.)
 2) Calculate the median of 'GDP per capita'.
 3) Fill NaN values in 'GDP per capita' with the median.
@@ -77,7 +77,7 @@ Summary and Conclusion
 ![image](https://github.com/user-attachments/assets/727414cd-fb98-4fc3-b797-523f9dd9b06f)
 <p align="center"> <b>ภาพที่ 3 แสดงรายละเอียดการเตรียมข้อมูลโดยการ Merge ไฟล์ GDP per Capita</b></p>
 
-# Part 3 : Thailand in Global Scale
+# Part 3 : Thailand on Global Stage
 **1) Choropleth map**
 *   Global life expectancy.
 *   Global healthcare expenditure rate.
@@ -359,16 +359,16 @@ Summary and Conclusion
 # Part 4 : Summary and Conclusion
 
 **- ภาพรวมของอายุขัย, ค่าใช้จ่ายด้านสุขภาพ, ค่าใช้จ่ายด้านการศึกษา และอัตราการว่างงานของประเทศไทย เทียบกับประเทศต่างๆ ทั่วโลก เป็นอย่างไรบ้าง** 
-1) ค่าอายุขัยของประชากรไทยและค่าอายุขัยของประชากรโลก ตั้งแต่ปี 2001 ถึงปี 2019 <b>มีแนวโน้มที่เพิ่มมากขึ้น</b> โดยค่าอายุขัยประชากรของประเทศไทยจะมีค่า<b>มากกว่า</b>ค่าเฉลี่ยของประชากรโลก
-2) ค่าใช้จ่ายด้านสุขภาพไทยและค่าใช้จ่ายด้านสุขภาพของโลก ตั้งแต่ปี 2001 ถึงปี 2019 <b>มีแนวโน้มที่เพิ่มมากขึ้น</b> โดยค่าใช้จ่ายด้านสุขภาพของประเทศไทยจะมีค่า<u>น้อยกว่า</b>ค่าเฉลี่ยของค่าใช้จ่ายด้านสุขภาพของโลก
-3) ค่าใช้จ่ายด้านการศึกษาของประชากรไทยและค่าใช้จ่ายด้านการศึกษาของประชากรโลก ตั้งแต่ปี 2001 ถึงปี 2019 <b>มีแนวโน้มที่ลดลง</b> โดยค่าใช้จ่ายด้านการศึกษาของประเทศไทยจะมีค่า<b>น้อยกว่า</b>ค่าเฉลี่ยของค่าใช้จ่ายด้านการศึกษาโลก
+1) ค่าอายุขัยของประชากรไทยและค่าอายุขัยของประชากรโลก ตั้งแต่ปี 2001 ถึงปี 2019 <b>มีแนวโน้มที่เพิ่มมากขึ้น</b> โดยค่าอายุขัยประชากรของประเทศไทยจะมีค่า<b>มากกว่า</b>ค่าเฉลี่ยอายุขัยของประชากรโลก
+2) ค่าใช้จ่ายด้านสุขภาพไทยและค่าใช้จ่ายด้านสุขภาพของโลก ตั้งแต่ปี 2001 ถึงปี 2019 <b>มีแนวโน้มที่เพิ่มมากขึ้น</b> โดยค่าใช้จ่ายด้านสุขภาพของประเทศไทยจะมีค่า<b>น้อยกว่า</b>ค่าเฉลี่ยค่าใช้จ่ายด้านสุขภาพของโลก
+3) ค่าใช้จ่ายด้านการศึกษาของประชากรไทยและค่าใช้จ่ายด้านการศึกษาของประชากรโลก ตั้งแต่ปี 2001 ถึงปี 2019 <b>มีแนวโน้มที่ลดลง</b> โดยค่าใช้จ่ายด้านการศึกษาของประเทศไทยจะมีค่า<b>น้อยกว่า</b>ค่าเฉลี่ยค่าใช้จ่ายด้านการศึกษาโลก
 4) อัตราการว่างงานของประชากรไทยและอัตราการว่างงานของประชากรโลก ตั้งแต่ปี 2001 ถึงปี 2019 <b>มีแนวโน้มที่ลดลง</b> โดยอัตราการว่างงานของประเทศไทยจะมีค่า<b>น้อยกว่า</b>ค่าเฉลี่ยของอัตราการว่างงานโลก
 
 **- GDP ต่อหัวของแต่ละประเทศเมื่อเทียบกับอายุขัย, ค่าใช้จ่ายด้านสุขภาพ, ค่าใช้จ่ายด้านการศึกษา และอัตราการว่างงานของประเทศไทย เทียบกับประเทศต่างๆ ทั่วโลก เป็นอย่างไรบ้าง**
-1) ประเทศไทยมีทั้ง GDP ต่อหัวและอายุขัยเฉลี่ยที่อยู่ในระดับปานกลาง เมื่อเทียบกับประเทศอื่นๆ ทั่วโลก ซึ่งหมายความว่าประเทศไทยยังมีศักยภาพในการพัฒนาคุณภาพชีวิตของประชาชนให้ดีขึ้นได้อีก
-2) ประเทศไทยมีทั้ง GDP ต่อหัวและสัดส่วนการใช้จ่ายด้านสุขภาพที่อยู่ในระดับปานกลาง เมื่อเทียบกับประเทศอื่นๆ ทั่วโลก
+1) ประเทศไทยมีทั้ง GDP ต่อหัวและอายุขัยเฉลี่ยที่อยู่ในระดับปานกลาง เมื่อเทียบกับประเทศต่างๆ ทั่วโลก ซึ่งหมายความว่าประเทศไทยยังมีศักยภาพในการพัฒนาคุณภาพชีวิตของประชาชนให้ดีขึ้นได้อีก
+2) ประเทศไทยมีทั้ง GDP ต่อหัวและสัดส่วนการใช้จ่ายด้านสุขภาพที่อยู่ในระดับปานกลาง เมื่อเทียบกับประเทศต่างๆ ทั่วโลก
 3) ประเทศไทยมีทั้ง GDP ต่อหัวและสัดส่วนค่าใช้จ่ายด้านการศึกษาที่อยู่ในระดับปานกลาง เมื่อเทียบกับประเทศอื่นๆ ทั่วโลก
-4) ประเทศไทยมีทั้ง GDP ต่อหัวและอัตราการว่างงานที่อยู่ในระดับปานกลาง เมื่อเทียบกับประเทศอื่นๆ ทั่วโลก
+4) ประเทศไทยมีทั้ง GDP ต่อหัวและอัตราการว่างงานที่อยู่ในระดับปานกลาง เมื่อเทียบกับประเทศต่างๆ ทั่วโลก
 
 **- ประเทศไทยมีประสิทธิภาพในการจัดการด้านสาธารณสุขและมีประสิทธิภาพในการจัดการด้านการศึกษาอยู่ในระดับดีหรือไม่ ?**  
 1) ในทรรศนะของการจัดการด้านสาธารณสุข อ้างอิงจากการวิเคราะห์กราฟ Bubble chart ประเทศไทยมีขนาดฟอง (Bubble) อยู่ในระดับกลาง ซึ่งหมายถึง <b>ค่าใช้จ่ายด้านสุขภาพของประเทศไทยอยู่ในเกณฑ์ปานกลาง ไม่ได้สูงมากเมื่อเทียบกับประเทศอื่นๆ</b>
