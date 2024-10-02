@@ -1,22 +1,22 @@
 # DADS5001-Miniproject
-Mini-Project is about data Analysis of socio-economic : Thailand on the global stage
+Mini-Project is about data analysis of socio-economic : Thailand on Global stage
 
 # Import data and Read data information
 
-*   **Import data from csv.file :** socio-economic and gdp per capita
-*   **Read data information :** we found that DataFrame has 9 columns and 3,269 rows
+*   **Import data from csv.file :** socio-economic and gdp per capita.
+*   **Read data information :** we found that the DataFrame has 9 columns and 3,269 rows.
 
 ## Describe data informantion in each column
 
-*   **Country name :** 174 countries
-*   **Country code :** 3 letter code
+*   **Country name :** 174 countries.
+*   **Country code :** 3 letter code.
 *   **Year :** 2000-2019
-*   **Life expectancy :**  The statistical measure of the average number of years a person is expected to live
-*   **Health Expenditure (% of GDP) :** Level of current health expenditure expressed as a percentage of GDP
-*   **Education Expenditure (% of GDP) :** General government expenditure on education (current,capital, and transfers) is expressed as a percentage of GDP
-*   **Unemployment (% total labor force) :** Unemployment refers to the % share of the labor force that is without work but available for and seeking employment
-*  **GDP per Capita :** measure that represents the average economic output (or income) per person in a country.
-      It is calculated by dividing a country's Gross Domestic Product (GDP)—the total value of 
+*   **Life expectancy :**  The statistical measure of the average number of years a person is expected to live.
+*   **Health Expenditure (% of GDP) :** Level of current health expenditure expressed as a percentage of GDP.
+*   **Education Expenditure (% of GDP) :** General government expenditure on education (current,capital, and transfers) is expressed as a percentage of GDP.
+*   **Unemployment (% total labor force) :** Unemployment refers to the % share of the labor force that is without work but available for and seeking employment.
+*  **GDP per Capita :** The measurement that represents the average economic output (or income) per person in a country.
+  
 # Table of contents
 
 **Part 1**
@@ -30,7 +30,6 @@ Data preparation process
 
 **Part 3**
 Thailand in Global scale
-
 
 # Part 1 : Question we want to know?
 - ภาพรวมของอายุขัย, ค่าใช้จ่ายด้านสุขภาพ, ค่าใช้จ่ายด้านการศึกษา และอัตราการว่างงานทั่วโลกมีเป็นอย่างไรบ้าง
@@ -56,48 +55,65 @@ Thailand in Global scale
 *  **GDP per Capita :** measure that represents the average economic output (or income) per person in a country.
       It is calculated by dividing a country's Gross Domestic Product (GDP)—the total value of goods and services produced within a country over a specific time period—by its population.
 
-# Data cleansing process
+# Data cleansing process : Fillna with Median
 
 ![image](https://github.com/user-attachments/assets/07c64229-95ea-42af-bf4a-8430fef81f3b)
+<p align="center"> <b>ภาพที่ 1 แสดงตารางการ cleansing ข้อมูลด้วยการเติมค่ากลางของข้อมูล (Median) ลงในค่าที่ว่างในตาราง</b></p>
 
 ![image](https://github.com/user-attachments/assets/4f708c32-6036-4b5f-8fef-6e24256224ba)
+<p align="center"> <b>ภาพที่ 2 แสดงรายละเอียดข้อมูลในรูปของ column และจำนวนแถวของข้อมูลที่ไม่พบค่าว่าง (non-null count)</b></p>
+
+### Prepare data for visualization : Merge GDP per Capita 
+1) Merged two data table (socio-ecomomic data and gdp per capita.)
+2) Calculate the median of 'GDP per capita'.
+3) Fill NaN values in 'GDP per capita' with the median.
+4) Print the updated DataFrame.
+
+![image](https://github.com/user-attachments/assets/727414cd-fb98-4fc3-b797-523f9dd9b06f)
+<p align="center"> <b>ภาพที่ 3 แสดงรายละเอียดการเตรียมข้อมูลโดยการ Merge ไฟล์ GDP per Capita</b></p>
 
 # Part 3 : Thailand in Global Scale
 **1) Choropleth map**
-*   Global life expectancy
-*   Global healthcare expenditure
-*   Global education expenditure
-*   Global unemployment rate
+*   Global life expectancy.
+*   Global healthcare expenditure rate.
+*   Global education expenditure rate.
+*   Global unemployment rate.
 
-**2) Box plot :** Box plot of life expectancy to represent life expectancy shape
+**2) Box plot :** Box plot of life expectancy to represent life expectancy shape.
 
 **3) Trendline :**  
-* Thailand vs Global life expectancy over time
-* Thailand vs Health expenditure over time
-* Thailand vs Global education expenditure over time
-* Thailand vs Global unemployment rate over time
+* Thailand vs Global life expectancy over time.
+* Thailand vs Health expenditure over time.
+* Thailand vs Global education expenditure over time.
+* Thailand vs Global unemployment rate over time.
 
 **2) Scatter plot : GDP per capita vs. 4 parameters**
-*   Global life expectancy / Thailand vs Global life expectancy
-*   Global healthcare expenditure / Thailand vs healthcare expenditure
-*   Global education expenditure / Thailand vs Global education expenditure
-*   Global unemployment rate / Thailand vs Global unemployment rate
+*   Global life expectancy / Thailand vs Global life expectancy.
+*   Global healthcare expenditure rate / Thailand vs healthcare expenditure rate.
+*   Global education expenditure rate / Thailand vs Global education expenditure rate.
+*   Global unemployment rate / Thailand vs Global unemployment rate.
 
 **3) Bubble chart : The relationship between GDP per Capita, life expectancy rate and health expenditure rate**
-*   Represent the relationship between GDP per capita (x-axis) , life expectancy (y-axis) and health expenditure (bubble size) : Thailand vs Global scale
-*   Represent the relationship between GDP per capita (x-axis) , health expenditure rate (y-axis) and education expenditure rate (bubble size) : Thailand vs Global scale
+*   Represent the relationship between GDP per capita (x-axis) , life expectancy (y-axis) and health expenditure rate (bubble size) : Thailand in Global scale
+*   Represent the relationship between GDP per capita (x-axis) , health expenditure rate (y-axis) and education expenditure rate (bubble size) : Thailand in Global scale
 
-**4) Correlation matrix :** The relationship between GDP per Capita, life expectancy, health expenditure rate, education expenditure rate and unemployment rate : Thailand vs Global scale
+**4) Correlation matrix :** The relationship between GDP per Capita, life expectancy, health expenditure rate, education expenditure rate and unemployment rate : Thailand in Global scale
 
 ## Choropleth map
 
+* พิจารณา Global life expectancy, Global healthcare expenditure rate, Global education expenditure rate and Global unemployment rate โดยแสดงผลผ่านกราฟแผนที่โลก ซึ่งค่าของแต่ละประเทศจะถูกแสดงออกเป็นระดับของสีที่ปรากฎอยู่ในแถบระดับด้านขวาของกราฟ
+
 ![image](https://github.com/user-attachments/assets/9be0d0dc-8fa2-4816-938c-1071653699fc)
+<p align="center"> <b>ภาพที่ 4 กราฟแสดงรายละเอียดอายุขัยของประชากรโลก (Global life expectancy) แสดงผลตามสเกลสีในแผนที่โลก</b></p>
 
 ![image](https://github.com/user-attachments/assets/50c8735f-92b5-4c21-a073-a666702859d0)
+<p align="center"> <b>ภาพที่ 5 กราฟแสดงรายละเอียดอัตราค่าใช้จ่ายด้านสุขภาพ (Global healthcare expenditure rate) แสดงผลตามสเกลสีในแผนที่โลก</b></p>
 
 ![image](https://github.com/user-attachments/assets/421464c6-4d3d-462b-8a11-0ace8cc9fc0f)
+<p align="center"> <b>ภาพที่ 6 กราฟแสดงรายละเอียดอัตราค่าใช้จ่ายด้านการศึกษา (Global education expenditure rate) แสดงผลตามสเกลสีในแผนที่โลก</b></p>
 
 ![image](https://github.com/user-attachments/assets/0e12001c-7264-4b53-902c-7bb8e088d5b1)
+<p align="center"> <b>ภาพที่ 7 กราฟแสดงรายละเอียดอัตราการว่างงาน (Global unemployment rate) แสดงผลตามสเกลสีในแผนที่โลก</b></p>
 
 ## Box plot
 
@@ -147,12 +163,6 @@ Thailand in Global scale
 ![image](https://github.com/user-attachments/assets/241c89ee-f508-42bf-94e3-75bd4da1ce39)
 
 ## Scatter plot : GDP per Capita compare to our four parameters
-
-### Prepare data for visualization
-1) Merged two data table (socio-ecomomic data and gdp per capita)
-2) Calculate the median of 'GDP per capita'
-3) Fill NaN values in 'GDP per capita' with the median
-4) Print the updated DataFrame
 
 ![image](https://github.com/user-attachments/assets/727414cd-fb98-4fc3-b797-523f9dd9b06f)
 
