@@ -25,7 +25,7 @@ Question we want to know?
 Data preparation process
 - Import data and Read data information
 - Describe data informantion in each column
-- Data cleansing process : Fillna with Median
+- Data cleansing process : Fill NA with Median
 - Prepare data for visualization : Merge GDP per Capita
   
 **Part 3**
@@ -47,7 +47,7 @@ Summary and Conclusion
 *   **Import data from csv.file :** socio-economic and gdp per capita
 *   **Read data information :** we found that DataFrame has 9 columns and 3,269 rows
 
-## Describe data informantion in each column
+## Describe data information in each column
 
 *   **Country name :** 174 countries
 *   **Country code :** 3 letter code
