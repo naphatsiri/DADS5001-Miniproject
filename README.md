@@ -56,8 +56,6 @@ Summary and Conclusion
 *   **Health Expenditure (% of GDP) :** Level of current health expenditure expressed as a percentage of GDP
 *   **Education Expenditure (% of GDP) :** General government expenditure on education (current,capital, and transfers) is expressed as a percentage of GDP
 *   **Unemployment (% total labor force) :** Unemployment refers to the % share of the labor force that is without work but available for and seeking employment
-*  **GDP per Capita :** measure that represents the average economic output (or income) per person in a country.
-      It is calculated by dividing a country's Gross Domestic Product (GDP)—the total value of goods and services produced within a country over a specific time period—by its population.
 
 ## Data cleansing process : Fill NA with Median
 
