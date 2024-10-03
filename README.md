@@ -4,7 +4,7 @@
 # Import data and Read data information
 
 *   **Import data from csv.file :** socio-economic and gdp per capita.
-*   **Read data information :** we found that the DataFrame has 7 columns and 3,269 rows.
+*   **Read data information :** we found that the DataFrame has 8 columns and 3,269 rows.
 
 # Describe data information in each column
 
@@ -45,7 +45,7 @@ Summary and Conclusion
 ## Import data and Read data information
 
 *   **Import data from csv.file :** socio-economic and gdp per capita
-*   **Read data information :** we found that DataFrame has 7 columns and 3,269 rows
+*   **Read data information :** we found that DataFrame has 8 columns and 3,269 rows
 
 ## Describe data information in each column
 
