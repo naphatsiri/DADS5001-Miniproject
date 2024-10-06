@@ -131,7 +131,7 @@ Summary and Conclusion
 ### Thailand vs Global Life expectancy over time
 
 ![image](https://github.com/user-attachments/assets/12710f28-e8f7-4048-99d8-ce1bb7a9f6aa)
-<p align="center"> <b>ภาพที่ 9 กราฟเส้นแนวโน้ม (Treandline) แสดงผลค่าอายุขัยของประเทศไทยเทียบกับค่าเฉลี่ยอายุขัยประชากรโลก ตั้้งแต่ปี 2001 ถึงปี 2019</b></p>
+<p align="center"> <b>ภาพที่ 9 กราฟเส้นแนวโน้ม (Trendline) แสดงผลค่าอายุขัยของประเทศไทยเทียบกับค่าเฉลี่ยอายุขัยประชากรโลก ตั้้งแต่ปี 2001 ถึงปี 2019</b></p>
 
 * จากกราฟ จะเห็นได้ว่า ค่าอายุขัยของประเทศไทยตั้้งแต่ปี 2001 ถึงปี 2019 มีค่าที่อยู่ใน<u>แนวโน้มที่เพิ่มมากขึ้น</u> โดยมีอัตราการเพิ่มขึ้นอยู่ที่ 8.92 %
   
@@ -143,7 +143,7 @@ Summary and Conclusion
 ### Thailand vs Health expenditure over time
 
 ![image](https://github.com/user-attachments/assets/80dbdcfe-738a-4aab-97ca-0ebbdbb46235)
-<p align="center"> <b>ภาพที่ 10 กราฟเส้นแนวโน้ม (Treandline) แสดงผล ค่าใช้จ่ายด้านสุขภาพประเทศไทยเทียบกับค่าใช้จ่ายด้านสุขภาพเฉลี่ยของโลก ตั้้งแต่ปี 2001 ถึงปี 2019</b></p>
+<p align="center"> <b>ภาพที่ 10 กราฟเส้นแนวโน้ม (Trendline) แสดงผล ค่าใช้จ่ายด้านสุขภาพประเทศไทยเทียบกับค่าใช้จ่ายด้านสุขภาพเฉลี่ยของโลก ตั้้งแต่ปี 2001 ถึงปี 2019</b></p>
 
 * จากกราฟ จะเห็นได้ว่า ค่าใช้จ่ายด้านสุขภาพประเทศไทยตั้้งแต่ปี 2001 ถึงปี 2019 มีค่าที่อยู่ใน<u>แนวโน้มที่เพิ่มมากขึ้น</u> โดยมีอัตราการเพิ่มขึ้นอยู่ที่ 25.08 %
 
@@ -155,7 +155,7 @@ Summary and Conclusion
 ### Thailand vs Global Education expenditure over time
 
 ![image](https://github.com/user-attachments/assets/589e82ab-8436-4d12-a5ef-9384fe3b34d4)
-<p align="center"> <b>ภาพที่ 11 กราฟเส้นแนวโน้ม (Treandline) แสดงผล ค่าใช้จ่ายด้านการศึกษาเทียบกับค่าใช้จ่ายด้านการศึกษาเฉลี่ยของโลก ตั้้งแต่ปี 2001 ถึงปี 2019</b></p>
+<p align="center"> <b>ภาพที่ 11 กราฟเส้นแนวโน้ม (Trendline) แสดงผล ค่าใช้จ่ายด้านการศึกษาเทียบกับค่าใช้จ่ายด้านการศึกษาเฉลี่ยของโลก ตั้้งแต่ปี 2001 ถึงปี 2019</b></p>
 
 * จากกราฟ จะเห็นได้ว่า ค่าใช้จ่ายด้านการศึกษาของประเทศไทยตั้้งแต่ปี 2001 ถึงปี 2019 มีค่าที่อยู่ใน<u>แนวโน้มที่ลดลง</u> โดยมีอัตราการลดลงอยู่ที่ 38.32 %
 
@@ -167,7 +167,7 @@ Summary and Conclusion
 ### Thailand vs Global Unemployment rate over time
 
 ![image](https://github.com/user-attachments/assets/241c89ee-f508-42bf-94e3-75bd4da1ce39)
-<p align="center"> <b>ภาพที่ 12 กราฟเส้นแนวโน้ม (Treandline) แสดงผล อัตราการว่างงานของประเทศไทยเทียบกับอัตราการว่างงานของประเทศไทยเฉลี่ยของโลก ตั้้งแต่ปี 2001 ถึงปี 2019</b></p>
+<p align="center"> <b>ภาพที่ 12 กราฟเส้นแนวโน้ม (Trendline) แสดงผล อัตราการว่างงานของประเทศไทยเทียบกับอัตราการว่างงานของประเทศไทยเฉลี่ยของโลก ตั้้งแต่ปี 2001 ถึงปี 2019</b></p>
 
 * จากกราฟ จะเห็นได้ว่า อัตราการว่างงานของประเทศไทยตั้้งแต่ปี 2001 ถึงปี 2019 มีค่าที่อยู่ใน<u>แนวโน้มที่ลดลง</u> โดยมีอัตราการลดลงอยู่ที่ 72.31 %
 
@@ -213,7 +213,7 @@ Summary and Conclusion
 
 *  กราฟนี้แสดงความสัมพันธ์ระหว่าง GDP ต่อหัวของแต่ละประเทศ กับ ค่าใช้จ่ายด้านสุขภาพ โดยใช้เส้น trendline ordinary least squares แสดงแนวโน้มโดยรวมของข้อมูล
 
-*   จากการวิเคราะห์ Treanline บ่งบอกว่า ยิ่ง GDP per Capita มากขึ้น ค่าใช้จ่ายด้านสาธารณสุขก็จะเพิ่มตามไปด้วย
+*   จากการวิเคราะห์ Trendline บ่งบอกว่า ยิ่ง GDP per Capita มากขึ้น ค่าใช้จ่ายด้านสาธารณสุขก็จะเพิ่มตามไปด้วย
 
 
 ### Thailand's GDP per Capita compare to  Health expenditure rate
@@ -240,7 +240,7 @@ Summary and Conclusion
 
 * กราฟนี้แสดงความสัมพันธ์ระหว่าง GDP ต่อหัวของแต่ละประเทศ กับ ค่าใช้จ่ายด้านการศึกษา โดยใช้เส้น trendline ordinary least squares แสดงแนวโน้มโดยรวมของข้อมูล
   
-* จากการวิเคราะห์ Treanline บ่งบอกว่า ยิ่ง GDP per Capita มากขึ้น อัตราค่าใช้จ่ายด้านการศึกษา ก็จะเพิ่มตาม
+* จากการวิเคราะห์ Trendline บ่งบอกว่า ยิ่ง GDP per Capita มากขึ้น อัตราค่าใช้จ่ายด้านการศึกษา ก็จะเพิ่มตาม
   
 * ทั้งนี้ จากการสังเกตจากกราฟพบว่า ความชันของเส้น Treandline มีไม่มากนัก ทำให้สรุปได้ว่า การเพิ่มขึ้นของ GDP per Capita ไม่ได้ทำให้อัตราค่าใช้จ่ายด้านการศึกษาเพิ่มขึ้นตามอย่างมีนัยสำคัญ
 
@@ -271,7 +271,7 @@ Summary and Conclusion
 
 * กราฟนี้แสดงความสัมพันธ์ระหว่าง GDP ต่อหัวของแต่ละประเทศ กับ อัตราการว่างงาน โดยใช้เส้น trendline ordinary least squares แสดงแนวโน้มโดยรวมของข้อมูล
   
-* จากการวิเคราะห์ Treanline บ่งบอกว่า ยิ่ง GDP per Capita มากขึ้น อัตราการว่างงาน จะลดลง
+* จากการวิเคราะห์ Trendline บ่งบอกว่า ยิ่ง GDP per Capita มากขึ้น อัตราการว่างงาน จะลดลง
   
 * จากการวิเคราะห์กราฟ ทำให้พบว่า GDP ต่อหัวของแต่ละประเทศ กับ อัตราการว่างงาน มีความสัมพันธ์ในทางตรงกันข้ามกัน
 
@@ -295,7 +295,8 @@ Summary and Conclusion
 ## Bubble chart
 ### The relationship between GDP per capita, life expectancy, and health expenditure rate
 
-![image](https://github.com/user-attachments/assets/1482cd47-afe0-40f9-8258-8b81f94efd09)
+![image](https://github.com/user-attachments/assets/1ccea14f-8102-4374-8fb0-1bdbb4c34599)
+
 <p align="center"> <b>ภาพที่ 22 กราฟ Bubble chart แสดงถึงความสัมพันธ์ระหว่าง <u>GDP per capita (แกน x)</u> , <u>อายุขัย (แกน y)</u> และ <u>ค่าใช้จ่ายด้านสุขภาพ (ขนาดของฟองสบู่)</b></p>
 
 จากการวิเคราะห์กราฟ พบว่า
@@ -308,7 +309,8 @@ Summary and Conclusion
 
 ### Relationship between GDP per capita, Life Expectancy and Health expenditure rate of Thailand
 
-![image](https://github.com/user-attachments/assets/4899a270-037a-46ad-957f-905b6ce1e04b)
+![image](https://github.com/user-attachments/assets/4d2408a4-8d70-48c5-aa98-208ddae0f0b6)
+
 <p align="center"> <b>ภาพที่ 23 กราฟ Bubble chart แสดงถึงความสัมพันธ์ระหว่าง <u>GDP per capita (แกน x)</u> , <u>อายุขัย (แกน y)</u> และ <u>ค่าใช้จ่ายด้านสุขภาพ (ขนาดของฟองสบู่)ของประเทศไทยในเวทีโลก</b></p>
 
 จากการวิเคราะห์กราฟ พบว่า 
@@ -321,7 +323,8 @@ Summary and Conclusion
 
 ### The relationship between GDP per capita, life expectancy, and Education expenditure rate
 
-![image](https://github.com/user-attachments/assets/a122a6ea-019f-4793-8d0f-51bb78de00ad)
+![image](https://github.com/user-attachments/assets/987dda81-5f24-4b67-9766-000d6e7a4ddc)
+
 <p align="center"> <b>ภาพที่ 24 กราฟ Bubble chart แสดงถึงความสัมพันธ์ระหว่าง <u>GDP per capita (แกน x)</u> , <u>อายุขัย (แกน y)</u> และ <u>ค่าใช้จ่ายด้านการศึกษา (ขนาดของฟองสบู่)</b></p>
 
 *   Bubble chart แสดงถึงความสัมพันธ์ระหว่าง <u>GDP per capita (แกน x)</u> , <u>health expectancy rate (แกน y)</u> และ <u>education expenditure rate (ขนาดของฟองสบู่)</u>
@@ -329,7 +332,8 @@ Summary and Conclusion
 
 # Relationship between GDP per capita, Life Expectancy and Education expenditure rate of Thailand
 
-![image](https://github.com/user-attachments/assets/4f2085ce-5937-4d11-8872-fe96cac6f756)
+![image](https://github.com/user-attachments/assets/27657d1f-415f-4651-86bc-e39e7af32b5d)
+
 <p align="center"> <b>ภาพที่ 25 กราฟ Bubble chart แสดงถึงความสัมพันธ์ระหว่าง <u>GDP per capita (แกน x)</u> , <u>อายุขัย (แกน y)</u> และ <u>ค่าใช้จ่ายด้านการศึกษา (ขนาดของฟองสบู่)ของประเทศไทยในเวทีโลก</b></p>
 
 จากการวิเคราะห์กราฟ พบว่า 
