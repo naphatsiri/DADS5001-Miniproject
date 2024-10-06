@@ -1,4 +1,4 @@
-<h1 align=center> DADS5001-Miniproject : Thailand's Socio-Economic Analysis</h1>
+<h1 align=center>Thailand's Socio-Economic Analysis</h1>
 <p align="center">Mini-Project is about data analysis of socio-economic : Thailand on Global stage</p>
 
 # Import data and Read data information
