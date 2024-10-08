@@ -193,7 +193,7 @@ Summary and Conclusion
 
 ### Thailand's GDP per Capita compare to Life expectancy
 
-![image](https://github.com/user-attachments/assets/1df0f947-6d34-4d22-9363-9ba9dd939f21)
+![image](https://github.com/user-attachments/assets/32bb9338-dd7f-4846-98bc-3f8fb450482b)
 <p align="center"> <b>ภาพที่ 15 กราฟจุด (Scatter plot) แสดงผล GDP per Capita ของประเทศไทยเทียบกับอายุขัยของประชากรโลก</b></p>
 
 * กราฟนี้แสดงความสัมพันธ์ระหว่าง GDP ต่อหัวของแต่ละประเทศ กับ อายุขัยเฉลี่ยของประชากรโดยใช้เส้น trendline ordinary least squares แสดงแนวโน้มโดยรวมของข้อมูล
@@ -218,7 +218,7 @@ Summary and Conclusion
 
 ### Thailand's GDP per Capita compare to  Health expenditure rate
 
-![image](https://github.com/user-attachments/assets/a6cd8125-761b-4f8e-879a-18e6ab89d736)
+![image](https://github.com/user-attachments/assets/c3b9b4cd-90d3-4517-bca5-b481e359cf31)
 <p align="center"> <b>ภาพที่ 17 กราฟจุด (Scatter plot) แสดงผล GDP per Capita ของประเทศไทยเทียบกับค่าใช้จ่ายด้านสุขภาพ</b></p>
 
 * กราฟนี้แสดงความสัมพันธ์ระหว่าง GDP ต่อหัวของแต่ละประเทศ กับ อัตราค่าใช้จ่ายด้านสุขภาพ โดยใช้เส้น trendline ordinary least squares แสดงแนวโน้มโดยรวมของข้อมูล
@@ -247,7 +247,7 @@ Summary and Conclusion
 
 ### Thailand's GDP per Capita compare to Education expenditure rate
 
-![image](https://github.com/user-attachments/assets/9cce80e4-3e54-4502-9018-888e29892f29)
+![image](https://github.com/user-attachments/assets/e2ab4ed9-dc45-4292-a7a3-7821462ce4be)
 <p align="center"> <b>ภาพที่ 19 กราฟจุด (Scatter plot) แสดงผล GDP per Capita ของประเทศไทยเทียบกับค่าใช้จ่ายด้านการศึกษา</b></p>
 
 จากการวิเคราะห์กราฟ พบว่า
@@ -278,7 +278,7 @@ Summary and Conclusion
 
 ### Thailand's GDP per Capita compare to Unemployment rate
 
-![image](https://github.com/user-attachments/assets/76567279-de3b-46da-9e84-83012390a459)
+![image](https://github.com/user-attachments/assets/0b688d19-d337-49a9-988b-19d96bad392f)
 <p align="center"> <b>ภาพที่ 21 กราฟจุด (Scatter plot) แสดงผล GDP per Capita ของประเทศไทยเทียบกับอัตราการว่างงาน</b></p>
 
 * กราฟนี้แสดงความสัมพันธ์ระหว่าง GDP ต่อหัวของแต่ละประเทศ กับ อัตราการว่างงาน โดยใช้เส้น trendline ordinary least squares แสดงแนวโน้มโดยรวมของข้อมูล
@@ -309,7 +309,7 @@ Summary and Conclusion
 
 ### Relationship between GDP per capita, Life Expectancy and Health expenditure rate of Thailand
 
-![image](https://github.com/user-attachments/assets/4d2408a4-8d70-48c5-aa98-208ddae0f0b6)
+![image](https://github.com/user-attachments/assets/8df42770-06c9-482f-a030-a3aadf42da95)
 
 <p align="center"> <b>ภาพที่ 23 กราฟ Bubble chart แสดงถึงความสัมพันธ์ระหว่าง <u>GDP per capita (แกน x)</u> , <u>อายุขัย (แกน y)</u> และ <u>ค่าใช้จ่ายด้านสุขภาพ (ขนาดของฟองสบู่)ของประเทศไทยในเวทีโลก</b></p>
 
@@ -332,7 +332,7 @@ Summary and Conclusion
 
 # Relationship between GDP per capita, Life Expectancy and Education expenditure rate of Thailand
 
-![image](https://github.com/user-attachments/assets/27657d1f-415f-4651-86bc-e39e7af32b5d)
+![image](https://github.com/user-attachments/assets/5c326c32-3c16-4fba-b5bf-8cddcb60d586)
 
 <p align="center"> <b>ภาพที่ 25 กราฟ Bubble chart แสดงถึงความสัมพันธ์ระหว่าง <u>GDP per capita (แกน x)</u> , <u>อายุขัย (แกน y)</u> และ <u>ค่าใช้จ่ายด้านการศึกษา (ขนาดของฟองสบู่)ของประเทศไทยในเวทีโลก</b></p>
 
